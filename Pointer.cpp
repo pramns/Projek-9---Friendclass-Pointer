@@ -17,4 +17,9 @@ int main(){
   refmhs.nim = 2;
   mhs.shownim();
 
+  
+  mahasiswa *pmhs = &mhs;
+  pmhs->nim = 3;
+  pmhs->shownim();
+  return 0;
 }
